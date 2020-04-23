@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+   tools:context="cn.edu.sdwu.android02.classroom.sn170507180205.Ch10Activity3">
+<EditText
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:id="@+id/ch10_3_tv"
+    android:text="name"
+    tools:layout_editor_absoluteY="188dp"
+    tools:layout_editor_absoluteX="92dp" />
+
+    <Button
+    android:layout_width="wrap_content"
+      android:text="OK"
+        android:onClick="ok"
+     android:layout_height="wrap_content"
+        tools:layout_editor_absoluteY="288dp"
+        tools:layout_editor_absoluteX="60dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:text="CANCEL"
+        android:onClick="cancel"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteY="288dp"
+        tools:layout_editor_absoluteX="232dp" />
+</android.support.constraint.ConstraintLayout>

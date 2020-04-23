@@ -22,7 +22,19 @@
         <receiver
             android:name=".MyReceiver"
             android:enabled="true"
-            android:exported="true"></receiver>
+            android:exported="true" />
+
+        <activity android:name=".Ch10Activity3" />
+        <activity android:name=".Ch12Activity1" />
+
+        <service
+            android:name=".MyService"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name=".MyService2"
+            android:enabled="true"
+            android:exported="true"></service>
     </application>
 
 </manifest>
