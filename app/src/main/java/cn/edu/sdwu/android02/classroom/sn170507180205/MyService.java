@@ -16,7 +16,7 @@ public class MyService extends Service {
     public void onCreate() {
         super.onCreate();
 
-        mediaPlayer = MediaPlayer.create(this.R.raw.wav);
+        mediaPlayer = MediaPlayer.create(this,R.raw.wav);
         mediaPlayer.setLooping(true);
     }
 
