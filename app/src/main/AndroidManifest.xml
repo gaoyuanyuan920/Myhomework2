@@ -34,7 +34,14 @@
         <service
             android:name=".MyService2"
             android:enabled="true"
-            android:exported="true"></service>
+            android:exported="true" />
+        <service
+            android:name=".MediaService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".Ch12Activity2" />
+        <activity android:name=".Ch13Activity1"></activity>
     </application>
 
 </manifest>
