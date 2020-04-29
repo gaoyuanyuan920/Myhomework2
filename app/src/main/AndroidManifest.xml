@@ -41,7 +41,8 @@
             android:exported="true" />
 
         <activity android:name=".Ch12Activity2" />
-        <activity android:name=".Ch13Activity1"></activity>
+        <activity android:name=".Ch13Activity1" />
+        <activity android:name=".Ch14Activity1"></activity>
     </application>
 
 </manifest>
