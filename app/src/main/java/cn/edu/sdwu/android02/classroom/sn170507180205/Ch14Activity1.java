@@ -102,6 +102,6 @@ public class Ch14Activity1 extends AppCompatActivity {
             //使用完毕。关闭数据库
             sqLiteDatabase.close();
         }
-
     }
+
 }
